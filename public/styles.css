@@ -50,6 +50,12 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
 }
 
+.title{
+  font-family: 'Poppins';
+  font-weight: 700;
+  color:#930f5b;
+}
+
 .video-container {
   position: absolute;
   left: 0;
