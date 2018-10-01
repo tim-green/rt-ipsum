@@ -1,0 +1,21 @@
+{
+  "name": "rooster-teeth-ipsum",
+  "version": "1.0.1",
+  "description": "A lorem ipsum generator all about Rooster Teeth Content",
+  "main": "app.js",
+  "scripts": {},
+  "keywords": [
+    "lorem ipsum",
+    "rooster teeth",
+    "random words"
+  ],
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "engines": {
+    "node": "10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}

@@ -1,0 +1,61 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:description" content="A lorem ipsum application that generates random quotes from Rooster Teeth">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>RT Ipsum</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link href="styles.css" rel="stylesheet" text="text/css" />
+</head>
+<body>
+
+  <div class="main-content">
+
+    <h1 class="title">
+      <img class="title-image" src="" alt="Rooster Teeth"/>
+    </h1>
+
+    <p class="description">
+      Specify the number of paragraphs of text you would like to generate. All sentences are quotes pulled from Rooster Teeth, primarly at this time it's nearly everything from Gavin.
+    </p>
+
+    <form action="/" method="POST">
+      <input type="number" class="paragraph-number" name="numberOfParagraphs">
+      <input type="submit" value="Generate" class="generate-button">
+    </form>
+
+    <a href="javascript:void(0)" class='copy-button' data-clipboard-target="#targetText">Copy Text</a>
+
+    <div class="generated-text" id="targetText">
+      <div class='placeholder-div'></div>
+    </div>
+
+  </div>
+
+  <div id="copyOverlay">
+    <div id="copyText">
+      <p>Copied!</p>
+    </div>
+  </div>
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+    var innerContents = document.getElementsByClassName("generated-text")[0].innerHTML;
+    if (!innerContents.includes("<p>")) {
+      $('.copy-button').hide();
+      document.getElementsByClassName("generated-text")[0].style.display = "none";
+    };
+    var clip = new Clipboard('.copy-button');
+    clip.on('success', function(e) {
+      $('#copyOverlay').show();
+      $('#copyOverlay').fadeOut(2000);
+      e.clearSelection();
+    });
+  </script>
+
+</body>
+</html>
