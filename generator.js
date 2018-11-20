@@ -204,7 +204,7 @@ function GenerateNewText() {
 "Ryan, no offense, fucking kill yourself",
 "Jokes on you. I'm borderline illiterate.",
 "Mogar is ready!",
-"Scooter Patrol", 
+"Scooter Patrol",
 "HE'S FUCKIN' 5'4!",
 "You threw it against the wall like a wet paper towel!",
 "I. Am. MONSTER TRUCK!",
@@ -217,10 +217,11 @@ function GenerateNewText() {
 "Someone slap the dick out of his mouth!",
 "This show is all about fair, and right",
 "You're fucking at a high school level",
-"Why buy the cow when you can get the milk for free?", 
+"Why buy the cow when you can get the milk for free?",
 "...I want you to have my orange juice.",
 "I meant why are we up in the sun, when we could be standing down there in the shade",
 "Tucker, there is a very fine line between not listening and not caring. I like to think that I walk that line every day of my life."
+  ]
 }
 
 // Method to the GenerateNewText constructor function that generates a random sentence
