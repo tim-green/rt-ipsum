@@ -56,6 +56,11 @@ input[type=number]::-webkit-outer-spin-button {
   color:#930f5b;
 }
 
+#highlighted-RT{
+  color: #fff;
+  padding: 8px;
+  background:linear-gradient(90deg,#c9373f 0,#930f5b);
+}
 .video-container {
   position: absolute;
   left: 0;
