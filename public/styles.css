@@ -79,6 +79,11 @@ input[type=number]::-webkit-outer-spin-button {
 .top-bar{
   background:linear-gradient(90deg,#c9373f 0,#930f5b);
   padding-top: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
 }
 .main-content {
   z-index: 10;
