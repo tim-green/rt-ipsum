@@ -76,7 +76,7 @@ input[type=number]::-webkit-outer-spin-button {
   transform: translate(-50%, -50%);
 }
 
-.topbar{
+.top-bar{
   background:linear-gradient(90deg,#c9373f 0,#930f5b);
   padding-top: 15px;
 }
