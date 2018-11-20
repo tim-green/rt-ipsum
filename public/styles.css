@@ -57,7 +57,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 #highlighted-RT{
-  color: #fff;
+  color: #0d0d0d;
   padding: 8px 12px;
   background:linear-gradient(90deg,#c9373f 0,#930f5b);
 }
@@ -93,6 +93,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .main-content {
   z-index: 10;
+  margin-top: 15%;
 }
 
 .title-image {
