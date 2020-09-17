@@ -10,12 +10,12 @@
     "random words"
   ],
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.17.1"
   },
   "engines": {
     "node": "10.11.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^2.0.4"
   }
 }
