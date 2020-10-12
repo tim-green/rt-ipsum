@@ -83,7 +83,6 @@ function GenerateNewText() {
 "No, i told you i got mugged like two minutes ago!",
 "I LIVE HERE NOW!",
 "Well, i came around the corner and reloaded.",
-"Oh my GOD RYAN!!!!!!",
 "Think with por'ols!",
 "Keep up, mo-fos!",
 "Let's play Super Mario with Michael and no portals...",
@@ -260,7 +259,6 @@ function GenerateNewText() {
 "Thats a Square, Jack",
 "DON'T BUMP ME IN!",
 "I've been deceived! I activated your trap card!",
-"You don't understand. Edgar is the one in the hole."
   ]
 }
 
